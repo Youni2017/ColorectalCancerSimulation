@@ -16,15 +16,27 @@ Colorectal cancer (CRC) initiation is driven by the accumulation of critical gen
    Final project paper submitted for grading.  
 
 2. **1_CRC_Initiation_master**  
-   This folder contains the original C++ code used by Paterson et al. to perform tau-leaping simulations. The `tauleaping_experiments` subfolder includes results from our four tau-leaping general case experiments and two tau-leaping KRAS-neutral simulations.  
+   This folder contains the original C++ code used by Paterson et al. to perform tau-leaping simulations. The `tauleaping_experiments` subfolder includes:
+- Results from our four tau-leaping general case experiments:
+  - `test1.1.csv`
+  - `test1.2.csv`
+  - `test1.3.csv`
+  - `test1.4.csv`
+- Results from two tau-leaping KRAS-neutral simulations:
+  - `test2.1.csv`
+  - `test2.2.csv`
 
 3. **2_tau_leaping_python**  
-   Our Python implementation of tau-leaping simulations. While the results require further refinement, this represents an important step towards improving the approach in the future.  
+   Our Python implementation of tau-leaping simulations. While the results require further refinement, this represents an important step towards improving the approach in the future.
+Files included:
+   - `2_tau_leaping_python.ipynb`: Our self-written Python code for tau-leaping simulations.
+   - `probability.txt` and `time_points.txt`: Output files containing the results of our simulations.
 
 4. **3_replicate**  
    This folder contains:  
    - `Figure_2.ipynb`: Code used to replicate Figure 2 from the original paper.  
    - `temp_code`: More detailed scripts for reproducing results using both the equation approach and the matrix approach.  
+   - `compare`: Scripts comparing the simulation results obtained using the Python-based simulation method with the results from the C++ simulation method used in the paper.
 
 5. **4_mutation_state_table.csv**  
    A CSV file documenting the 32 distinct genotypic states defined in our matrix approach.  
